@@ -70,7 +70,7 @@ function ChatView({ index = 0 }: { index?: number }) {
         <AddedChatContext.Provider value={addedChatHelpers}>
           <Presentation>
             <div className="flex h-full w-full flex-col">
-              {!isLoading && <Header />}
+              {/* {!isLoading && <Header />} */}
 
               {isLandingPage ? (
                 <>

@@ -91,7 +91,7 @@ export default function Footer({ className }: { className?: string }) {
         }
         role="contentinfo"
       >
-        {footerElements.map((contentRender, index) => {
+        {/* {footerElements.map((contentRender, index) => {
           const isLastElement = index === footerElements.length - 1;
           return (
             <React.Fragment key={`footer-element-${index}`}>
@@ -104,7 +104,7 @@ export default function Footer({ className }: { className?: string }) {
               )}
             </React.Fragment>
           );
-        })}
+        })} */}
       </div>
     </div>
   );
